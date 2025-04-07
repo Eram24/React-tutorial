@@ -1,0 +1,22 @@
+{
+  "name": "react-learning",
+  "version": "1.0.0",
+  "description": "This is React by Eram",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eram24/React-tutorial.git"
+  },
+  "author": "Eram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eram24/React-tutorial/issues"
+  },
+  "homepage": "https://github.com/Eram24/React-tutorial#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+}
