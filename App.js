@@ -1,3 +1,7 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+
 // ----------------for single tag----------------
 
 
@@ -17,8 +21,8 @@
 
 // const parent=React.createElement("div",{id:"parent"},
 //     React.createElement("div",{id:"child"},
-//     [React.createElement("h1",{},"This is heading one"),
-//     React.createElement("h2",{},"This is heading two")]
+//     [React.createElement("h1",{key: "1"},"This is heading one"),
+//     React.createElement("h2",{key: "2"},"This is heading two")]
 //     )
 // )
 
@@ -41,14 +45,14 @@
 </div> */
 
 
-const parent=React.createElement("div",{id:"parent"},
-    [React.createElement("div",{id:"chil1"},
-    [React.createElement("h1",{},"This is heading one"),
-    React.createElement("h2",{},"This is heading two")]
+const parent=React.createElement("div",{id:" parent "},
+    [React.createElement("div",{key:" chil1 "},
+    [React.createElement("h1",{key :"1"},"This is heading one"),
+    React.createElement("h2",{key :"2"},"This is heading two")]
     ),
-    React.createElement("div",{id:"child2"},
-        [React.createElement("h1",{},"This is heading one"),
-        React.createElement("h2",{},"This is heading two")]
+    React.createElement("div",{key:" "},
+        [React.createElement("h1",{key:"1"},"This is heading one"),
+        React.createElement("h2",{key:"2"},"This is heading two")]
         )]
 )
 
