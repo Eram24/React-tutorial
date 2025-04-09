@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "This is React by Eram",
   "scripts": {
+    "start": "parcel Index.html",
+    "build": "parcel build Index.html",
     "test": "jest"
   },
   "repository": {
@@ -21,5 +23,11 @@
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
-  }
+  },
+  "browserList":[
+    "last 2 Chrome version",
+    "last 2 Firefox version"
+  ]
+    
+  
 }
